@@ -1,0 +1,18 @@
+[
+  {
+    "id": "usr_001",
+    "username": "TimeTrader_Tarang",
+    "email": "tarang@example.com",
+    "level": 4,
+    "xp": 1450,
+    "securityScore": 720
+  },
+  {
+    "id": "usr_002", 
+    "username": "CyberShield_Priya",
+    "email": "priya@example.com",
+    "level": 6,
+    "xp": 3200,
+    "securityScore": 890
+  }
+]

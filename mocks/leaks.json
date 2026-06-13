@@ -1,25 +1,44 @@
-{
-  "emailScanned": "tarang@example.com",
-  "status": "breached",
-  "severity": "high",
-  "totalLeaks": 2,
-  "breaches": [
-    {
-      "source": "Skill-Swap Platform Database",
-      "date": "2026-03-28",
-      "compromisedData": ["email", "passwords", "usernames"],
-      "description": "A development database backup for a skill-sharing platform was accidentally exposed to the public."
-    },
-    {
-      "source": "Tech Hardware Forum",
-      "date": "2025-10-12",
-      "compromisedData": ["email", "IP addresses"],
-      "description": "A forum discussing Dell laptop battery maintenance suffered a data breach, exposing user emails."
-    }
-  ],
-  "nextSteps": [
-    "Change your password for tarang@example.com immediately.",
-    "Enable Two-Factor Authentication (2FA) on your primary accounts.",
-    "Use a secure password manager to generate unique passwords for every site."
-  ]
-}
+[
+  {
+    "emailScanned": "tarang@example.com",
+    "status": "breached",
+    "severity": "high",
+    "totalLeaks": 2,
+    "breaches": [
+      {
+        "source": "Skill-Swap Platform Database",
+        "date": "2026-03-28",
+        "compromisedData": [
+          "email",
+          "passwords",
+          "usernames"
+        ],
+        "description": "A development database backup for a skill-sharing platform was accidentally exposed to the public."
+      },
+      {
+        "source": "Tech Hardware Forum",
+        "date": "2025-10-12",
+        "compromisedData": [
+          "email",
+          "IP addresses"
+        ],
+        "description": "A forum discussing Dell laptop battery maintenance suffered a data breach."
+      }
+    ],
+    "nextSteps": [
+      "Change your password immediately.",
+      "Enable Two-Factor Authentication (2FA).",
+      "Use a password manager."
+    ]
+  },
+  {
+    "emailScanned": "clean@example.com",
+    "status": "clean",
+    "severity": "none",
+    "totalLeaks": 0,
+    "breaches": [],
+    "nextSteps": [
+      "Your email looks safe! Keep using strong passwords."
+    ]
+  }
+]

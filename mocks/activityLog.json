@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "action": "URL Scanned",
+    "result": "safe",
+    "xpGained": 10,
+    "time": "2 mins ago"
+  },
+  {
+    "id": 2,
+    "action": "Email Checked",
+    "result": "breached",
+    "xpGained": 0,
+    "time": "1 hour ago"
+  },
+  {
+    "id": 3,
+    "action": "Badge Earned",
+    "result": "2FA Defender",
+    "xpGained": 50,
+    "time": "Yesterday"
+  }
+]
