@@ -1,0 +1,26 @@
+[
+  {
+    "scenario": "Safe Link",
+    "scannedUrl": "https://store.epicgames.com/p/free-game-of-the-week",
+    "status": "safe",
+    "threatType": "none",
+    "explanation": "This URL is registered to a verified company and uses a secure SSL connection. No suspicious patterns detected.",
+    "xpAwarded": 10
+  },
+  {
+    "scenario": "Risky Link",
+    "scannedUrl": "http://jujutsu-kaisen-free-episodes-login.net/auth",
+    "status": "risky",
+    "threatType": "suspicious_domain",
+    "explanation": "This domain was recently registered, does not use HTTPS, and mimics a streaming service to steal credentials.",
+    "xpAwarded": 0
+  },
+  {
+    "scenario": "Blocked Link",
+    "scannedUrl": "http://leetcode-premium-hack-tool.xyz/download",
+    "status": "blocked",
+    "threatType": "malware",
+    "explanation": "This site is known for distributing malicious software disguised as coding tools. Connection blocked.",
+    "xpAwarded": 0
+  }
+]

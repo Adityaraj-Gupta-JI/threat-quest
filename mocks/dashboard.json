@@ -1,0 +1,34 @@
+{
+  "user": {
+    "id": "usr_25BCE5383",
+    "username": "TimeTrader_Tarang",
+    "avatarUrl": "https://api.dicebear.com/7.x/pixel-art/svg?seed=Tarang",
+    "memberSince": "2026-01-15"
+  },
+  "stats": {
+    "securityScore": 720,
+    "hp": 72,
+    "maxHp": 100,
+    "shieldStatus": "Active",
+    "threatsDetected": 2,
+    "xp": 1450,
+    "level": 4,
+    "nextLevelXp": 2000
+  },
+  "badges": [
+    {
+      "id": "badge_01",
+      "name": "2FA Defender",
+      "icon": "shield-check",
+      "unlocked": true,
+      "description": "Enabled Two-Factor Authentication."
+    },
+    {
+      "id": "badge_02",
+      "name": "Safe Browser",
+      "icon": "globe",
+      "unlocked": false,
+      "description": "Scanned 10 safe URLs."
+    }
+  ]
+}
